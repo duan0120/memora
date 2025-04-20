@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Memora - Your Ultimate Read It Later Solution",
     description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
-    url: "https://memora.app",
+    url: "https://www.memora.app",
     siteName: "Memora",
     images: [
       {
@@ -35,6 +35,8 @@ export const metadata: Metadata = {
     title: "Memora - Your Ultimate Read It Later Solution",
     description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
     images: ["/imgs/logo.png"],
+    creator: "@duanhjlt",
+    site: "@duanhjlt",
   }
 };
 
