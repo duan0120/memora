@@ -16,7 +16,26 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Memora - Your Ultimate Read It Later Solution",
   description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
-  keywords:["Memora", "Read it later", "Notes", "AI", "Instapaper","Pocket","Readwise","Matter"]
+  keywords:["Memora", "Read it later", "Notes", "AI", "Instapaper","Pocket","Readwise","Matter"],
+  openGraph: {
+    title: "Memora - Your Ultimate Read It Later Solution",
+    description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
+    url: "https://memora.app",
+    siteName: "Memora",
+    images: [
+      {
+        url: "/imgs/logo.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Memora - Your Ultimate Read It Later Solution",
+    description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
+    images: ["/imgs/logo.png"],
+  }
 };
 
 export default function RootLayout({
