@@ -79,7 +79,7 @@ export default function ({ footer }: { footer: Footer }) {
                   target="_blank"
                   className="text-secondary-500"
                 >
-                  Crazy Kids
+                  CrazyKids
                 </a>
               </div>
             </div>
