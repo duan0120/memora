@@ -14,12 +14,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Memora - Your Ultimate Read It Later Solution",
-  description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
-  keywords:["Memora", "Read it later", "Notes", "AI", "Instapaper","Pocket","Readwise","Matter"],
+  title: "Memora: Read It Later App for iOS & macOS with Offline Reading",
+  description: "Memora is a secure read it later app for iOS and macOS. Save web pages offline, sync via iCloud, and enjoy distraction-free reading. Organize with tags and search easily.",
   openGraph: {
-    title: "Memora - Your Ultimate Read It Later Solution",
-    description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
+    title: "Memora: Read It Later App for iOS & macOS with Offline Reading",
+    description: "Memora is a secure read it later app for iOS and macOS. Save web pages offline, sync via iCloud, and enjoy distraction-free reading. Organize with tags and search easily.",
     url: "https://www.memora.app",
     siteName: "Memora",
     images: [
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Memora - Your Ultimate Read It Later Solution",
+    title: "Memora: Read It Later App for iOS & macOS with Offline Reading",
     description: "Memora is a thoughtfully designed 'Read It Later' app that helps you save, organize, and revisit your favorite articles and notes effortlessly.",
     images: ["/imgs/logo.png"],
     creator: "@duanhjlt",

@@ -29,7 +29,7 @@ export const page: Page = {
     buttons: [],
   },
   hero: {
-    title: "Permanently Save Your Ideas and Knowledge",
+    title: "Memora: Your Secure Read It Later App for iOS & macOS",
     description:
       "With Memora, effortlessly save articles, notes, and information from anywhere, and revisit them at your convenience. Perfect for busy professionals and avid readers.",
     image: {
@@ -112,33 +112,33 @@ export const page: Page = {
       "Permanently Save Your Ideas and Knowledge",
     items: [
       {
-        title: "Collect links from anywhere",
+        title: "Save and Read Web Pages Offline",
         description:
-          "Add links through Copy & Paste, the Action Sheet. All platforms are supported.",
+          "Memora is a powerful read it later app for iOS and macOS, designed to help you save web pages for offline reading. Download articles and websites to your device to avoid 404 errors and access content anytime, anywhere.",
         avatar: {
           src: "/imgs/icons/1.svg",
         },
       },
       {
-        title: "Local first, iCloud sync",
+        title: "Privacy-First with Local Storage",
         description:
-          "Memora prioritizes privacy by storing all data locally on your device, with the option to sync your data to iCloud for multi-device support. Your privacy is always our top concern, whether you’re reading or saving content.",
+          "Your data stays safe with Memora. We prioritize privacy by storing data locally on your device and syncing securely via iCloud. No user data is stored on our servers, ensuring maximum security.",
         avatar: {
           src: "/imgs/icons/2.svg",
         },
       },
       {
-        title: "Save webarchive",
+        title: "Distraction-Free Reading Mode",
         description:
-          "Memora allows you to access saved content offline, ensuring your reading experience is seamless, regardless of your connection status.",
+          "Enjoy a clean, distraction-free reading mode that removes ads and clutter. Future updates will include note-taking and full-text search, making Memora the ultimate reading companion.",
         avatar: {
           src: "/imgs/icons/3.svg",
         },
       },
       {
-        title: "Reader mode",
+        title: "Organize with Tags and Smart Search",
         description:
-          "Reading mode, providing a better reading experience",
+          "Bookmark and archive web pages effortlessly. Organize URLs with custom tags and find them quickly using multiple search methods, including tag-based and keyword searches.",
         avatar: {
           src: "/imgs/icons/4.svg",
         },
@@ -146,8 +146,8 @@ export const page: Page = {
     ],
   },
   cta: {
-    title: "Can't wait to use Memora?",
-    description: "Just start from here, build your knowledge database",
+    title: "Get Started Today",
+    description: "Download Memora, the best read it later app for iOS and macOS, and take control of your reading list with privacy and ease.",
     buttons: [
       {
         title: "Try Now",
@@ -214,7 +214,7 @@ export const page: Page = {
               target: "_blank",
             },
             {
-              title: "Crazy Kids",
+              title: "CrazyKids",
               url: "https://blog.crazykids.tech",
               target: "_blank",
             },

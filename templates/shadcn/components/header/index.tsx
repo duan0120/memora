@@ -38,12 +38,12 @@ export default function ({ header }: { header: Header }) {
                   alt={header.brand.avatar.title}
                   className="h-8"
                 />
-                <h1 className="text-xl font-bold">{header.brand.title}</h1>
+                <h2 className="text-xl font-bold">{header.brand.title}</h2>
               </div>
             ) : (
-              <h1 className="text-xl font-bold cursor-pointer">
+              <h2 className="text-xl font-bold cursor-pointer">
                 {header.brand?.title}
-              </h1>
+              </h2>
             )}
           </Link>
 
@@ -82,12 +82,12 @@ export default function ({ header }: { header: Header }) {
                     alt={header.brand.avatar.title}
                     className="h-8"
                   />
-                  <h1 className="text-xl font-bold">{header.brand.title}</h1>
+                  <h2 className="text-xl font-bold">{header.brand.title}</h2>
                 </div>
               ) : (
-                <h1 className="text-xl font-bold cursor-pointer">
+                <h2 className="text-xl font-bold cursor-pointer">
                   {header.brand?.title}
-                </h1>
+                </h2>
               )}
             </Link>
             <div className="flex-1"></div>
