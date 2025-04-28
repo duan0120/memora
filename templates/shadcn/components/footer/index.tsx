@@ -33,8 +33,8 @@ export default function ({ footer }: { footer: Footer }) {
                     return (
                       <li className="mt-2" key={i}>
                         <a
-                          href={item.url}
-                          target={item.target}
+                          href={item.url || ""}
+                          target={item.target || "_blank"}
                           className="hover:underline text-gray-600 hover:text-gray-800"
                         >
                           {item.title}
@@ -54,8 +54,8 @@ export default function ({ footer }: { footer: Footer }) {
             {footer.social?.items?.map((v: Item, idx: number) => {
               return (
                 <a
-                  href={v.url}
-                  target={v.target}
+                  href={v.url || ""}
+                  target={v.target || "_blank"}
                   rel="nofollow"
                   className="text-gray-400 hover:text-gray-500 cursor-pointer"
                 >

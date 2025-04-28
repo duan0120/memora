@@ -34,8 +34,8 @@ export default function ({ header }: { header: Header }) {
             {header.brand && header.brand.avatar ? (
               <div className="flex items-center gap-x-2 cursor-pointer">
                 <img
-                  src={header.brand.avatar.src}
-                  alt={header.brand.avatar.title}
+                  src={header.brand.avatar.src || ""}
+                  alt={header.brand.avatar.title || ""}
                   className="h-8"
                 />
                 <h2 className="text-xl font-bold">{header.brand.title}</h2>
@@ -78,8 +78,8 @@ export default function ({ header }: { header: Header }) {
               {header.brand && header.brand.avatar ? (
                 <div className="flex items-center gap-x-2 cursor-pointer">
                   <img
-                    src={header.brand.avatar.src}
-                    alt={header.brand.avatar.title}
+                    src={header.brand.avatar.src || ""}
+                    alt={header.brand.avatar.title || ""}
                     className="h-8"
                   />
                   <h2 className="text-xl font-bold">{header.brand.title}</h2>

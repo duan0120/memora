@@ -17,8 +17,8 @@ export default function ({ section }: { section: Section }) {
           {section.items?.map((item: Item, idx: number) => (
             <img
               key={idx}
-              src={item.image?.src}
-              alt={item.image?.title}
+              src={item.image?.src || ""}
+              alt={item.image?.title || ""}
               width={158}
               height={48}
               className={`col-span-2 max-h-12 w-full object-contain grayscale dark:invert ${

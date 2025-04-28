@@ -28,8 +28,8 @@ export default function ({ section }: { section: Section }) {
               {item.avatar && item.avatar.src && (
                 <div className="mb-4 text-primary-500">
                   <img
-                    src={item.avatar?.src}
-                    alt={item.avatar?.title}
+                    src={item.avatar?.src || ""}
+                    alt={item.avatar?.title || ""}
                     className="w-10 h-10"
                   />
                 </div>

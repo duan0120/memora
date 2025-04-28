@@ -29,8 +29,8 @@ export default function ({ hero }: { hero: Hero }) {
 
         {hero.image && (
           <img
-            alt={hero.image.title}
-            src={hero.image.src}
+            alt={hero.image.title || ""}
+            src={hero.image.src || ""}
             className="mt-8 max-w-full md:max-w-5xl mx-auto rounded-md shadow-2xl border sm:mt-12 block dark:hidden"
           />
         )}

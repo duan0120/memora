@@ -18,8 +18,8 @@ const Feature: FC<{ section: Section }> = ({ section }) => (
       <div className="order-1 md:order-1">
         <img
           className="w-full max-w-md rounded-xl shadow-xl ring-1 ring-gray-400/10"
-          src={section.image?.src}
-          alt={section.image?.title}
+          src={section.image?.src || ""}
+          alt={section.image?.title || ""}
         />
       </div>
     )}
@@ -73,8 +73,8 @@ const Feature: FC<{ section: Section }> = ({ section }) => (
       <div className="order-1 md:order-2">
         <img
           className="w-full max-w-md rounded-xl shadow-xl ring-1 ring-gray-400/10"
-          src={section.image?.src}
-          alt={section.image?.title}
+          src={section.image?.src || ""}
+          alt={section.image?.title || ""}
         />
       </div>
     )}

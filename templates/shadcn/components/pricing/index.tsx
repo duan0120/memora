@@ -122,7 +122,7 @@ export default function () {
                 </CardContent>
                 <CardFooter className="mt-auto">
                   <Button className="w-full" aria-describedby={plan.id} asChild>
-                    <a href={plan.href}>{plan.actionTitle}</a>
+                    <a href={plan.href || ""}>{plan.actionTitle}</a>
                   </Button>
                 </CardFooter>
               </Card>

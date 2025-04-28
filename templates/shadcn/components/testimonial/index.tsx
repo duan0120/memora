@@ -12,7 +12,7 @@ const TestimonialCard = ({ item }: { item: Item }) => (
       </blockquote>
       <div className="mt-6 flex items-center gap-x-4">
         <Avatar>
-          <AvatarImage src={item.avatar?.src} alt={item.avatar?.title} />
+          <AvatarImage src={item.avatar?.src || ""} alt={item.avatar?.title || ""} />
           <AvatarFallback>{item.title?.charAt(0)}</AvatarFallback>
         </Avatar>
         <div>
