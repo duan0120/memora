@@ -75,7 +75,7 @@ export default function ({ footer }: { footer: Footer }) {
               <div className="w-full flex-shrink-0">
                 built with{" "}
                 <a
-                  href="https://blog.crazykids.tech"
+                  href="https://www.crazykids.tech"
                   target="_blank"
                   className="text-secondary-500"
                 >

@@ -16,7 +16,7 @@ export const page: Page = {
       items: [
         {
           title: "Blog",
-          url: "https://blog.crazykids.tech",
+          url: "https://www.crazykids.tech",
           target: "_blank",
         },
         {
@@ -215,7 +215,7 @@ export const page: Page = {
             },
             {
               title: "CrazyKids",
-              url: "https://blog.crazykids.tech",
+              url: "https://www.crazykids.tech",
               target: "_blank",
             },
           ],
